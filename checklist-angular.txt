@@ -5,8 +5,13 @@
 
 
 
-#--------- rotinas do git
+#--------- rotinas do git (add no repositorio)
 1. git status (verificar situação)
 2. se vermelho -> git add .
-3. se verde -> git commit -m "nome do commit"
-4. se tudo ok -> git push
+3. se verde -> git commit -m "nome do commit" (grava na linha)
+4. se tudo ok -> git push (atualiza no github)
+
+
+#------- ANGULAR
+ng new nome-projeto (cria um projeto)
+pwd (caminho em que estamos)
