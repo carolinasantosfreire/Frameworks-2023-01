@@ -1,0 +1,13 @@
+.container{
+    background: linear-gradient(45deg, #eeeeef, #7b8ad8, #e589d6);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.img{
+    height: 250px;
+    width: 200px;
+}
