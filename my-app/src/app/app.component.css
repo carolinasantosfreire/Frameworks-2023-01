@@ -9,5 +9,22 @@
 
 .img{
     height: 250px;
-    width: 200px;
+    width: 200px; 
+}
+
+
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc input {
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    outline: none;
+    background: #705690;
+    font-size: 18px;
+
 }
