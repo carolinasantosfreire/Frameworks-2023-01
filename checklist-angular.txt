@@ -23,6 +23,6 @@ ng serve -o (rodar e abrir o projeto - dentro da pasta do projeto)
 
 pwd (caminho em que estamos)
 
-
+  
 
 
