@@ -7,13 +7,17 @@ import { HeroComponent } from './components/hero/hero.component';
 import { LoginComponent } from './components/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { GridComponent } from './components/grid/grid.component';
+import { PortifolioComponent } from './components/portifolio/portifolio.component';
+import { GaleriaComponent } from './components/galeria/galeria.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroComponent,
     LoginComponent,
-    GridComponent
+    GridComponent,
+    PortifolioComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,
