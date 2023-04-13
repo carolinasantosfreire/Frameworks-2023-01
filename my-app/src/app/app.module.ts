@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { LoginComponent } from './components/login/login.component';
 import { FormsModule } from '@angular/forms';
+import { GridComponent } from './components/grid/grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroComponent,
-    LoginComponent
+    LoginComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,

@@ -20,9 +20,11 @@ git config --system --unset credential.helper
 #------- ANGULAR
 ng new nome-projeto (cria um projeto)
 ng serve -o (rodar e abrir o projeto - dentro da pasta do projeto)   
+ng g c components/nome --skip-tests ( cria um novo componente - na pasta do projeto)
 
+
+comando para criar varias divs: (.item .item-$>{item $})*12
+
+#----
 pwd (caminho em que estamos)
-
-  
-
 
