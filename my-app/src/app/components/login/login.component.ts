@@ -24,8 +24,8 @@ else{
   this.isError = true;
   this.isCorrect = false;
 }
-  
-  
+
+
 
 
   console.log("User = " + this.user + " Password = " + this.pwd)

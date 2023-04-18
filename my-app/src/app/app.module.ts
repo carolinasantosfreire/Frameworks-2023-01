@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { GridComponent } from './components/grid/grid.component';
 import { PortifolioComponent } from './components/portifolio/portifolio.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
+import { NewLoginComponent } from './components/new-login/new-login.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
     LoginComponent,
     GridComponent,
     PortifolioComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    NewLoginComponent
   ],
   imports: [
     BrowserModule,
