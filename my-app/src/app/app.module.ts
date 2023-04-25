@@ -10,6 +10,8 @@ import { GridComponent } from './components/grid/grid.component';
 import { PortifolioComponent } from './components/portifolio/portifolio.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { NewLoginComponent } from './components/new-login/new-login.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { NewLoginComponent } from './components/new-login/new-login.component';
     GridComponent,
     PortifolioComponent,
     GaleriaComponent,
-    NewLoginComponent
+    NewLoginComponent,
+    PageNotFoundComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
