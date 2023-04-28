@@ -1,0 +1,49 @@
+.container {
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+   
+}
+
+.content {
+    background: #fafafd;
+    border: 1px solid black;
+}
+
+.user-info {
+    display: grid;
+    grid-template-rows: 150px 200px 1fr;
+
+}
+
+.profile {
+    background: #a5a5eb;
+
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    padding: 10px;
+    justify-items: center;
+}
+
+.profile .img {
+    width: 80px;
+    height: 80px;
+    background: #f1eca9;
+    border-radius: 50%;
+}
+
+.member {
+     background: #e2a6f1;
+}
+
+.menu{
+     background: #a9f1a9;
+
+}
+
+li {
+    list-style: none;
+}

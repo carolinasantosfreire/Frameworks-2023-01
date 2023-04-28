@@ -2,8 +2,9 @@
 * {
     margin: 0;
     padding: 0;
-    /* background: linear-gradient(60deg, #9733ff, #5833ff); */
     font-family: 'Poppins', sans-serif;
+    color: #fff;
+    /* background-image: ; */
 }
 
 .container {
@@ -46,6 +47,7 @@ h2 {
 
 span {
     font-weight: 500;
+    font-size: 18px;
 }
 
 .button {
@@ -57,9 +59,18 @@ span {
 .button button {
     height: 35px;
     width: 150px;
-    border: 1px solid #281872;
-    background: rgba(255, 255, 255, 0);
+    border: 2px solid #281872;
+    background: linear-gradient(60deg, #9733ff, #5833ff);
     border-radius: 20px;
     cursor: pointer;
     color: #fff;
+    font-size: 15px;
+}
+
+button:hover {
+    filter: brightness(150%);
+}
+
+.button button a {
+    text-decoration: none;
 }
