@@ -1,49 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
- display: flex;
- align-items: center;
- justify-content: flex-start;
- flex-direction: column;
- width: 100%;
- height: 100vh;
- background: #1a0d0d;
- color: #fff;
-
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(213, 84, 114);
+    color: black
 }
 
-.container .header{
+.container .header {
     padding: 30px;
-    background: #361e1e;
+    background: rgba(255, 255, 255, 0.2);
     width: 100%;
 }
 
-.container .header label{
-font-size: 18px;
-margin: 10px;
+.container .header label {
+    font-size: 18px;
+    margin: 10px;
 }
 
 .container .header input {
-    background: #724c4c;
-    height: 20px;
+    background: rgb(205, 178, 233);
+    height: 30px;
     font-size: 18px;
     color: #e3e3e3;
 }
+
 .container .header button {
-height: 30px;
-width: 80px;
-margin: 10px;
-border-radius: 20px;
-background: #fbeee0;
-color: #1a0d0d;
-font-size: 15px;
-cursor: pointer;
+    height: 30px;
+    width: 80px;
+    margin: 10px;
 }
 
 
+/* CSS
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+} */
+
+.container .heroes {
+    padding: 30px;
+    font-size: 20px;
+    width: 100px;
+}
+
+.container .heroes ul li {
+    list-style: none;
+    border: solid rgb(232, 175, 175);
+    padding: 10px;
+    margin: 5px;
+    transition: background 500ms;
+}
+
+.container .heroes ul li:hover {
+    background: rgb(243, 153, 228);
+}
+
+.container .card-hero {
+    background: rgb(212, 132, 199);
+    width: 400px;
+    height: 25px;
+    margin-left: 35px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.container .card-hero .photo {
+    height: 10px;
+}

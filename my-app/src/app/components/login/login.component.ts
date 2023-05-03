@@ -16,9 +16,9 @@ pwd = ""
 
 login(){
 
-if (this.user == "carol@carol" && this.pwd == "carol") {
-  this.isCorrect = true;
-  this.isError = false;
+  if(this.user == "iza@iza" && this.pwd == "123"){
+    this.isCorrect = true;
+    this.isError = false;
 }
 else{
   this.isError = true;
