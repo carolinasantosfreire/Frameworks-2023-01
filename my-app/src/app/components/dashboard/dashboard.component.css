@@ -5,11 +5,13 @@
     display: grid;
     grid-template-columns: 350px 1fr;
     box-shadow: 3px 3px 15px #696969;
+   
 }
 
 .user-info {
     display: grid;
     grid-template-rows: 150px 200px 1fr;
+
 }
 
 .profile {
@@ -29,28 +31,29 @@
 }
 
 .member {
-    background: #e2a6f1;
+     background: #e2a6f1;
 }
 
 .user-info .menu {
-    /* background: #a9f1a9; */
-}
+     /* background: #a9f1a9; */
+    
 
-.user-info .menu li {
+}
+.user-info .menu li{
     list-style: none;
     padding: 15px 20px;
+    
+}
+.user-info .menu li i{
+   color: #696969;
+   font-size: 19px;
+   margin-right: 15px;
 }
 
-.user-info .menu li i {
-    color: #696969;
-    font-size: 19px;
-    margin-right: 15px;
-}
-
-.user-info .menu li a {
-    color: #696969;
-    font-size: 19px;
-    text-decoration: none;
+.user-info .menu li a{
+   color: #696969;
+   font-size: 19px;
+   text-decoration: none;
 }
 
 .content {
@@ -59,18 +62,19 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
-.content .box-1 {
+.content .box-1{
     display: grid;
+    
 }
 
-.content .box-2 {
+.content .box-2{
     background: #94e691;
 }
 
-.content .box-3 {
+.content .box-3{
     background: #e26666;
 }
 
-.content .box-4 {
+.content .box-4{
     background: #dc82ec;
 }
