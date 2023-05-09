@@ -4,7 +4,7 @@
 }
 
 .container {
-    margin: 20px;
+    margin: 20px auto;
     width: 90%;
     height: 100vh;
     display: grid;
@@ -101,4 +101,57 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+.content .info {
+    display: grid;
+    grid-template-columns: 2.7fr 1.3fr;
+    gap: 30px;
+}
+.content .info .box1 {
+    background: #fadbbd;
+}
+.content .info .box2 {
+    background: #f0ecfe;
+}
+
+.content .adm{
+    display: grid;
+    grid-template-columns: 1.4fr 1.1fr;
+    gap: 30px; 
+    margin-top: 30px;
+}
+
+.content .adm .team{
+    background: #f1a9db;
+}
+.content .adm .task{
+    background: #cfbdfa;
+}
+
+.content .adm .team .title{
+    background: #e5f7f0;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.content .adm .team .title span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content .adm .team .title .ball{
+    background: #43af74;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px 0 25px;
+}
+
+.content .adm .team .title .ball i{
+    color: #fff;
+    font-size: 22px;
 }
