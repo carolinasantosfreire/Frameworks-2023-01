@@ -155,3 +155,43 @@
     color: #fff;
     font-size: 22px;
 }
+
+.container .user{
+    display: grid;
+    grid-template-rows: 100px 180px 120px  1fr;
+    gap: 10px;
+}
+
+.container .user .box-1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 28px;
+}
+
+.container .user .box-1 i{
+    margin: 0 10px;
+    font-size: 23px;
+    color: #696969;
+}
+
+.container .user .box-2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .user .box-2 .ball .img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.container .user .box-3{
+    background: #dfb9e0;
+}
+
+.container .user .box-4{
+    background: #bae7ba;
+}
