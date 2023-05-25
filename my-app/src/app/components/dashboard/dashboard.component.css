@@ -14,9 +14,13 @@ h3 {
 }
 h5{
     font-size: 12px;
-
+    font-weight: 500;
 }
 
+h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
 
 * {
     margin: 0;
@@ -80,7 +84,7 @@ h5{
 .content {
     display: grid;
     grid-template-rows: 100px 200px 1fr;
-    padding: 30px;
+    padding: 0 20px;
 }
 
 .content .search {
@@ -141,18 +145,49 @@ h5{
     margin-top: 30px;
 }
 
-.content .adm .team{
-    background: #f1a9db;
-}
+
 .content .adm .task{
     background: #cfbdfa;
 }
+
+
+
+.content .adm .task .title{
+    background: #e5f7f0;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-left: 2px solid #43af74;
+}
+
+.content .adm .task .title span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content .adm .task .title .ball{
+    background: #43af74;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px 0 25px;
+}
+
+.content .adm .task .title .ball i{
+    color: #fff;
+    font-size: 22px;
+}
+
 
 .content .adm .team .title{
     background: #e5f7f0;
     display: flex;
     align-items: center;
     height: 50px;
+    border-left: 2px solid #43af74;
 }
 
 .content .adm .team .title span{
@@ -318,4 +353,52 @@ h5{
     font-size: 12px;
     color: #6957f8;
     font-weight: 200;
+}
+
+
+
+.container .adm .team .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background: #f8fafd;
+    margin: 10px 0 ;
+    border-radius: 8px;
+}
+
+.container .adm .team .box .member {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 0 15px 0 25px;
+    align-items: center;
+    padding: 15px;
+}
+
+.container .adm .team .box .member img{
+    width: 35px;
+    height: 35px;
+    border-radius: 30%;
+    margin-right: 15px;
+}
+
+.container .adm .team .detail-at .member img{
+    width: 35px;
+    height: 35px;
+    border-radius: 30%;
+    margin-right: 15px;
+} 
+
+.container .adm .team .detail-at .member {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 0 15px 0 25px;
+    align-items: center;
+    padding: 15px;
+}
+
+.container .adm .team .detail-at {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
 }
