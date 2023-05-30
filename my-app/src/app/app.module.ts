@@ -12,6 +12,8 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
 import { NewLoginComponent } from './components/new-login/new-login.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { TaskComponent } from './components/task/task.component';
+import { UserComponent } from './components/user/user.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     GaleriaComponent,
     NewLoginComponent,
     PageNotFoundComponent,
-    DashboardComponent
+    DashboardComponent,
+    TaskComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
