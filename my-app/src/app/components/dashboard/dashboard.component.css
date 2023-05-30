@@ -377,7 +377,7 @@ h4 {
 .container .adm .team .box .member img{
     width: 35px;
     height: 35px;
-    border-radius: 30%;
+    border-radius: 50%;
     margin-right: 15px;
 }
 
@@ -388,17 +388,24 @@ h4 {
     margin-right: 15px;
 } 
 
+.container .adm .team .detail-at .member .data{
+    margin-top: 10px;
+}
+
 .container .adm .team .detail-at .member {
     display: grid;
     grid-template-columns: auto 1fr;
     margin: 0 15px 0 25px;
     align-items: center;
     padding: 15px;
+    background: #f8fafd;
+
 }
 
 .container .adm .team .detail-at {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
 }
+
