@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { LoginComponent } from './components/login/login.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GridComponent } from './components/grid/grid.component';
 import { PortifolioComponent } from './components/portifolio/portifolio.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
@@ -32,7 +32,8 @@ import { UserComponent } from './components/user/user.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
