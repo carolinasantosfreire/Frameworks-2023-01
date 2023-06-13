@@ -146,8 +146,9 @@ h4 {
 }
 
 
-.content .adm .task{
-    background: #cfbdfa;
+.content .adm .task .tasks{
+    background: #f7fbfd;
+    height: 100%;
 }
 
 
