@@ -137,21 +137,21 @@ h4 {
     background: #fadbbd;
 }
 
-.content .info .box1 img {
+/* .content .info .box1 img {
     height: 198px;
     width: 890px;
     border-radius: 15px;
-}
+} */
 
 .content .info .box2 {
     background: #f0ecfe;
 }
 
-.content .info .box2 img {
+/* .content .info .box2 img {
     height: 198px;
     width: 450px;
     border-radius: 15px;
-}
+} */
 
 .content .adm {
     display: grid;
@@ -164,7 +164,10 @@ h4 {
     background: #f7fbfd;
     height: 100%;
 }
-
+.content .adm .task .tasks .new-task{
+    color: #43af74;
+    
+}
 .content .adm .task .title {
     background: #e5f7f0;
     display: flex;

@@ -50,10 +50,10 @@
 
         <div class="info">
             <div class="box1">
-                <img src="avatar.png" alt="">
+                <!-- <img src="/assets/grafico.PNG" alt=""> -->
             </div>
             <div class="box2">
-                <img src="img.PNG" alt="">
+                <!-- <img src="/assets/img.PNG" alt=""> -->
             </div>
         </div>
 
@@ -156,16 +156,23 @@
 
 
             <div class="task">
-                <a routerlink="/task">
-                    <div class="title">
+                    <div class="title" (click)="addTask()">
                         <div class="ball">
                             <i class='bx bx-plus'></i>
                         </div>
                         <span>Adicionar nova tarefa</span>
                     </div>
-                </a>
+                
                 <div class="tasks">
-
+                    <div class="new-task" *ngFor="let t of tasks">
+                     
+                        <span >Task:{{ t.nome }}</span><br>
+                        <span>Responsável:{{ t.responsavel }}</span><br>
+                        <span>Descrição:{{ t.descricao }}</span><br>
+                        <span>Data da Criação:{{ t.dt_inicio }}</span><br>
+                        <span>Data do Término:{{ t.dt_fim }}</span><br>
+                        
+                    </div>
                 </div>
 
             </div>
@@ -181,7 +188,7 @@
         </div>
         <div class="box-2">
             <div class="ball">
-                <img class="img" src="/assets/avatar.png" alt="">
+                <img class="img" src="/assets/perfil.png" alt="">
             </div>
             <h3>Carolina</h3>
             <h5>Estudante</h5>
