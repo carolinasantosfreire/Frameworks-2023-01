@@ -2,7 +2,9 @@
     <div class="user-info">
 
         <div class="profile">
-            <div class="img"></div>
+            <div class="img">
+                <img src="/assets/perfil.png" alt="">
+            </div>
             <h2>Olá, Carolina!</h2>
         </div>
 
@@ -50,10 +52,10 @@
 
         <div class="info">
             <div class="box1">
-                <!-- <img src="/assets/grafico.PNG" alt=""> -->
+                <img src="/assets/grafico.PNG" alt="">
             </div>
             <div class="box2">
-                <!-- <img src="/assets/img.PNG" alt=""> -->
+                <img src="/assets/img.PNG" alt="">
             </div>
         </div>
 
@@ -156,22 +158,22 @@
 
 
             <div class="task">
-                    <div class="title" (click)="addTask()">
-                        <div class="ball">
-                            <i class='bx bx-plus'></i>
-                        </div>
-                        <span>Adicionar nova tarefa</span>
+                <div class="title" (click)="addTask()">
+                    <div class="ball">
+                        <i class='bx bx-plus'></i>
                     </div>
-                
+                    <span>Adicionar nova tarefa</span>
+                </div>
+
                 <div class="tasks">
                     <div class="new-task" *ngFor="let t of tasks">
-                     
-                        <span >Task:{{ t.nome }}</span><br>
-                        <span>Responsável:{{ t.responsavel }}</span><br>
-                        <span>Descrição:{{ t.descricao }}</span><br>
-                        <span>Data da Criação:{{ t.dt_inicio }}</span><br>
-                        <span>Data do Término:{{ t.dt_fim }}</span><br>
-                        
+
+                        <span><b>Task:</b>{{ t.nome }}</span><br>
+                        <span><b>Responsável:</b>{{ t.responsavel }}</span><br>
+                        <span><b>Descrição:</b>{{ t.descricao }}</span><br>
+                        <span><b>Data da Criação:</b>{{ t.dt_inicio }}</span><br>
+                        <span><b>Data do Término:</b>{{ t.dt_fim }}</span><br>
+
                     </div>
                 </div>
 

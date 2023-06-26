@@ -52,9 +52,9 @@ h4 {
     justify-items: center;
 }
 
-.profile .img {
-    width: 80px;
-    height: 80px;
+.profile .img img {
+    width: 90px;
+    height: 90px;
     background: #f1eca9;
     border-radius: 50%;
 }
@@ -137,21 +137,21 @@ h4 {
     background: #fadbbd;
 }
 
-/* .content .info .box1 img {
+.content .info .box1 img {
     height: 198px;
     width: 890px;
     border-radius: 15px;
-} */
+}
 
 .content .info .box2 {
     background: #f0ecfe;
 }
 
-/* .content .info .box2 img {
+.content .info .box2 img {
     height: 198px;
     width: 450px;
     border-radius: 15px;
-} */
+}
 
 .content .adm {
     display: grid;
@@ -164,10 +164,18 @@ h4 {
     background: #f7fbfd;
     height: 100%;
 }
-.content .adm .task .tasks .new-task{
-    color: #43af74;
-    
+
+.content .adm .task .tasks .new-task {
+    background: rgb(245, 205, 219);
+    border-radius: 8px;
+    color: black;
+    margin: 30px;
+    padding: 5px;
+    font-style: var(--shadow);
+    text-align: justify;
+    font-size: 16px;
 }
+
 .content .adm .task .title {
     background: #e5f7f0;
     display: flex;
